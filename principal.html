@@ -1,0 +1,356 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <!-- Add icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="styles.css">
+  <title> Balnearios de la Republica Dominicana </title>
+</head>
+<style>
+  .container-fluid {
+    max-width: 80%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    overflow-x: hidden;
+  }
+
+  .card {
+    box-shadow: 0px 0px 10px rgba(183, 87, 87, 0.3);
+
+  }
+
+  .card-title {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .card-text {
+    font-size: 18px;
+    text-align: justify;
+  }
+
+  .carousel-inner .carousel-item img {
+    height: 550px !important;
+    width: 100%;
+    object-fit: fill;
+    object-position: center;
+  }
+
+  img {
+    height: 200px;
+    object-fit: cover;
+  }
+
+  #titulo{
+  text-align: center !important;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.Intro{
+  font-size:20px;
+}
+
+  iframe {
+    width: 100%;
+    height: 30vh;
+    border-radius: 25px;
+    margin: 5px;
+    padding: 5px;
+  }
+
+  .social {
+    color: #fff;
+    /* Color del texto */
+  }
+
+  .social i {
+    color: #ff0000;
+    /* Color de fondo de los iconos */
+  }
+
+  #footer a {
+    color: white;
+  }
+
+  @media (min-width: 320px) and (max-width: 768px) {
+    .container-fluid {
+      max-width: 100%;
+      overflow-x: hidden;
+      margin: 2px;
+    }
+
+    .carousel-inner .carousel-item img {
+      height: 200px !important;
+      width: 100%;
+      object-fit: fill;
+      object-position: center;
+    }
+
+    h1 {
+      font-size: 25px;
+    }
+    .Intro{
+  font-size:18px;
+}
+
+    .card {
+      margin: 2px;
+      width: 100%;
+
+    }
+
+    .card-body {
+      width: 100%;
+    }
+
+    .card-title {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .card-text {
+    font-size: 18px;
+    text-align: justify;
+  }
+
+
+    iframe {
+      width: 100%;
+      height: 30vh;
+      border-radius: 15px;
+    }
+
+    img {
+      height: 200px;
+      object-fit: cover;
+    }
+
+    #footer a {
+      color: white;
+    }
+  }
+</style>
+
+<body>
+  <!--Main Container-->
+  <div class="container-fluid">
+    <!--Header-->
+    <header>
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+            aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">BalnearioRD</a>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="principal.html">Home</a>
+              </li>
+            
+              </li>
+
+            </ul>
+
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--Fin header-->
+    <!--Main- CARROUSEL-->
+    <main id="main">
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" data-pause="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block rounded" src="https://live.mrf.io/statics/i/ps/images2.listindiario.com/imagen/2021/07/21/680/680301/680x460/202107202329131/calor-refrescate-en-uno-de-estos-balnearios-dominicanos.jpeg?width=1200&enable=upscale" alt="Demon 1">
+          </div>
+          <div class="carousel-item ">
+            <img class="d-block rounded" src="https://bavarodigital.net/wp-content/uploads/2021/07/charcos-de-nizao_16097410_20210401194558.jpg" alt="Demon 2">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block rounded" src="https://ocoaenred.com/wp-content/uploads/2021/04/Salto-La-Bocaina.jpg" alt="Demon 3">
+          </div>
+          <div class="carousel-item ">
+            <img class="d-block rounded" src="https://i0.wp.com/nosvamosdepaseo.com/wp-content/uploads/2019/08/balneario-los-patos-barahona-rd-cover.jpg?fit=1440%2C760&ssl=1" alt="Demon 4">
+          </div>
+        
+
+
+        </div>
+      </div>
+    </main>
+    <br>
+    <!--Fin Main-->
+    <div class="mt-2 m-1 text-dark rounded text-center p-1">
+      <h1>Balnearios de la Republica Dominicana:</h1>
+      <p class="Intro"> República Dominicana está sufriendo de olas de calor, tanto por el verano como por el polvo del Sahara. Muchos buscan opciones para ir a refrescarse, por eso te recomendamos algunos ríos y balnearios, que puedes visitar en familia manteniendo el distanciamiento y las medidas de prevención.
+      </p>
+
+      <p class="Intro">
+        Los Patos. Ubicado en Barahona, es de agua dulce y su desembocadura está a pocos metros de la playa Los Patos.
+
+
+      , Balneario San Rafael. Está también en Barahona, al lado de la Playa San Rafael. Tiene una hermosa cascada y aguas cristalinas.
+        
+
+        , Villa Miriam. Propiedad privada con hermosas piscinas y cascadas, alimentadas por el río San Rafael, brotando desde las colinas de la zona.
+        
+
+         ,C harcos del río Nizao, en Los Cacaos, San Cristóbal. Un lugar muy de moda y muy visitado, cerca de Santo Domingo. Es un conjunto de hermosos charcos. El trayecto es prácticamente plano, entre piedras. El recorrido se realiza con guías expertos. 
+
+
+        , Comate. Ubicado en Bayaguana, Monte Plata, bien cerca de la capital. Cientos de dominicanos lo visitan cada fin de semana. La administración es privada y hay seguridad y salvavidas.
+
+
+        , Río Masipedro en Bonao. Balneario, afluente del Yuna, principal vena acuífera de la zona, es uno de los emblemas del municipio. Bien cerca de Santo Domingo, es muy visitado los fines de semana, por sus ricas aguas y ambiente.
+        
+
+        , La Cortina. Está en Jarabacoa, La Vega. Es de los más famosos y visitados de la provincia. Esta piscina natural está a unos 15 minutos del centro de la ciudad.
+        
+    
+
+
+  
+
+    <!--Galeria Grupo Card #1- 1Ero-->
+  
+    <div class="card-group">
+      <div class="card m-1 p-2">
+        <img class="card-img-top" src="https://resources.diariolibre.com/images/binrepository/psx-20210727-135239_16915991_20210727224716-focus-0-0-375-240.jpg"
+          alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Las Marias de Neiba</h5>
+          <p class="card-text">Este es un balneario de aguas frescas ubicado en el borde la carretera en Neyba, con sus aguas transparentes y con cierto grado de azufre. Resulta en una parada obligatoria cuando se transita por la zona sur del país.e.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+
+      <div class="card m-1 p-2">
+        <img class="card-img-top" src="https://i.ytimg.com/vi/t4YUMxarjWY/maxresdefault.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Río Masipedro en Bonao</h5>
+          <p class="card-text"> Balneario, afluente del Yuna, principal vena acuífera de la zona, es uno de los emblemas del municipio. Bien cerca de Santo Domingo, es muy visitado los fines de semana, por sus ricas aguas y ambiente..</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+
+      <div class="card m-1 p-2">
+        <img class="card-img-top" src="https://i.ytimg.com/vi/7NQPWEZjQOI/maxresdefault.jpg"
+          alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title"> Charcos del río Nizao</h5>
+          <p class="card-text"> Un lugar muy de moda y muy visitado, cerca de Santo Domingo. Es un conjunto de hermosos charcos. El trayecto es prácticamente plano, entre piedras. El recorrido se realiza con guías expertos..</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+   
+       
+  
+        </div>
+  
+                  </div>
+                </div>
+      
+
+              <br><br>
+              <!--Fin Galeria-->
+  
+              <!--Galeria de Videos-->
+
+
+              
+
+
+               
+
+                
+               
+
+            <hr />
+          </div>
+
+
+
+
+          -
+            <!--Redes Sociales-->
+            <br>
+            <h3 class="text-center">Mis Redes Sociales</h3>
+            <hr />
+            <div class="text-center center-block">
+              <div class="social">
+                <a href="" target="_blank"><i
+                    class="fa fa-linkedin-square fa-3x social"></i></a>
+                <a href="" target="_blank"><i
+                    class="fa fa-youtube-square fa-3x social"></i></a>
+                <a href="" target="_blank"><i
+                    class="fa fa-facebook-square fa-3x social"></i></a>
+                <a href="" target="_blank"><i
+                    class="fa fa-twitter-square fa-3x social"></i></a>
+                <a href="" target="_blank"><i
+                    class="fa fa-github-square fa-3x social"></i></a>
+              </div>
+
+            </div>
+            <hr />
+            <h4 class="text-center">Sinara Beltre <small>&copy; 2023. Todos los derechos reservados.</small></h4>
+            <!--Fin Redes Sociales-->
+
+            <!--Footer-->
+            <footer id="footer" class="pb-4 pt-4 bg-danger">
+              <div class="container">
+                <div class="row text-center">
+                  <div class=" col-12 col-lg">
+                    <a href="index.html">Home</a>
+                  <div class="col-12 col-lg">
+                    <a href="#">Contactos</a>
+                  </div>
+
+                </div>
+              </div>
+            </footer>
+            <!--Fin footer-->
+
+          </div>
+
+          <!--Main Container-->
+
+
+        </div>
+
+        <!-- Optional JavaScript -->
+        <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+          integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+          crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+          integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+          crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+          integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+          crossorigin="anonymous"></script>
+        <script src="index.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js "
+          integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc "
+          crossorigin="anonymous "></script>
+
+
+</body>
+
+</html>
